@@ -1,0 +1,705 @@
+body{
+    width: 100vw;
+    
+   font-family: "Rubik", sans-serif ;
+   overflow-x: hidden;
+   
+}
+
+.mainwrap{
+    width: 85vw !important;
+
+    margin-top: 10px;
+}
+
+.mainwrap2{
+    width: 85vw !important;
+
+    margin-top: 10px;
+}
+
+
+
+nav{
+position:absolute;
+top: 0;
+left: 0;
+width: 100vw;
+min-height: 100vh;
+background-color: hsl(229, 31%, 21%,0.9) ;
+
+    
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+ z-index: 2;
+ display: none;
+ 
+
+}
+
+
+
+
+
+
+nav ul{
+    min-height: 60vh !important;
+    margin-top: -2px;
+    
+   
+}
+
+.navend{
+    min-height: 40vh !important;
+    display: flex;
+    align-items: last baseline;
+   
+    
+    
+
+}
+
+
+
+
+
+nav ul li{
+    
+
+
+    text-transform:uppercase;
+    text-align: center;
+    padding-top: 6px ;
+    padding-bottom: 6px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 3px;
+    cursor: pointer;
+    
+}
+
+nav hr{
+    color: white;
+   width: 80vw;
+}
+
+
+
+/* ///MAIN/// */
+main{
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+/* ////section 1//// */
+
+
+
+.sec1{
+    margin-top: 120px;
+width: 100vw;
+
+
+   
+}
+
+.sec1-1{
+width:75vw;
+    background: hsl(231, 69%, 60%);
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+
+
+
+}
+
+
+
+.sec1-1 img{
+    position: relative;
+    left: -75px ;
+top: -50px;
+min-width: 340px;
+
+
+
+}
+
+
+
+.para{
+    font-weight: 400;
+    color:  hsl(229, 8%, 60%);
+}
+
+.butts1{
+    background:  hsl(231, 69%, 60%) !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    min-width: 140px;
+    height: 40px;
+   
+}
+
+.butts2{
+    background: rgb(247, 247, 247) !important;
+    font-size: 12px !important;
+    font-weight: 400;
+    min-width: 140px;
+    height: 40px;
+    color: hsl(229, 8%, 60%);
+    font-weight: 500 !important;
+}
+
+.buttswrap{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* /////////SECTION 2//// */
+.sec2{
+    margin-top: 110px;
+}
+
+.sec2-2 hr{
+    margin-top: 5px;
+}
+
+
+.lgs{
+    display: none;
+}
+
+
+
+
+.tablink{
+    cursor: pointer;
+ 
+   text-wrap: nowrap;
+
+}
+
+
+
+.tablink h6{
+    font-weight: 300;
+   
+}
+
+
+
+.tablink h6:hover{
+    color: hsl(0, 94%, 66%);
+}
+
+
+.tabindicator1{
+  width: 85%;
+ 
+    height: 5px;
+    background: hsl(0, 94%, 66%);
+    
+   position: relative;
+  top: 5px;
+    display:none ;
+   
+   
+}
+
+
+.active .tabindicator1{
+    display: block;
+}
+
+
+
+.tabContent-wrap .tabContent{
+    display: none ;
+    flex-direction: column;
+}
+
+.tabContent-wrap .tabContent:first-of-type{
+   
+    display: flex ;
+    flex-direction: column;
+}
+
+
+
+.tabContent-wrap{
+ margin-top: 120px;
+ min-width: 100vw;
+
+
+}
+.Intabcontent1, .Intabcontent2, .Intabcontent3{
+
+ max-width: 75vw;
+    background: hsl(231, 69%, 60%);
+    border-top-right-radius:200px ;
+    border-bottom-right-radius:200px ;
+display: flex;
+justify-content: end;
+}
+
+
+
+.tabContentimg1,.tabContentimg2,.tabContentimg3{
+    min-width:310px;
+   position: relative;
+   left: 60px;
+   top: -40px;
+
+
+}
+
+/* ///////SEC3/////// */
+
+
+
+.sec3{
+    margin-top: 150px;
+    position: relative;
+    top: 60px;
+    
+}
+
+
+.info{
+    background: hsl(231, 69%, 60%) !important;
+    color: white !important;
+    font-size: 10px !important;
+}
+
+.info{
+    display: none !important;
+}
+
+h1,h4,h5{
+
+    letter-spacing: 1px;
+
+}
+
+.install{
+    background: hsl(231, 69%, 60%) !important;
+    width: 80%;
+    color: white !important;
+   
+}
+
+.brows{
+   
+    width: 300px;
+    height: 380px;
+    border-radius: 20px ;
+    
+}
+
+
+
+
+
+.ans{
+    display: none ;
+}
+
+
+#closeicon{
+color: hsl(0, 94%, 66%);
+}
+
+
+
+/* ////SEC4//////// */
+
+
+
+
+.insec4Wrap2 .ques:not(:first-of-type){
+  
+    margin-top: -10px;
+   
+ }
+
+ .insec4Wrap2 .ques p{
+   
+    font-size: 15px;
+}
+
+
+.insec4Wrap2 .ques td:hover{
+    color:hsl(0, 94%, 66%) ;
+    cursor: pointer;
+    
+}
+
+
+
+
+.infobutts button{
+    background: hsl(231, 69%, 60%);
+    color: white;
+    width: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.infobutts button:hover{
+    background: hsl(231, 69%, 60%);
+    color: white;
+}
+
+
+
+
+
+/* ///////SEC5////// */
+
+.sec5{
+    margin-top: 100px;
+    background: hsl(231, 69%, 60%);
+}
+
+.insec5text{
+    width: 450px;
+ 
+}
+
+
+.insec5text h6{
+    text-transform: uppercase;
+}
+
+.insec5text h4{
+    font-size: x-large;
+    
+}
+
+
+
+
+
+
+@media(min-width:800px){
+  header{
+    padding-top: 20px;
+
+  
+    
+  }
+
+   .mainwrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+   }
+
+   nav{
+min-height:unset ;
+   position: unset;
+  width: unset ;
+background: none;
+display: flex ;
+padding-top: 10px;
+
+
+   }
+
+
+   #menu{
+    display: none;
+   }
+
+   nav ul{
+    min-height: unset !important;
+
+   
+}
+
+nav .navlogo{
+    display: none !important;
+}
+
+nav .navend{
+    display: none;
+}
+
+
+
+.line{
+    display: none ;
+   }
+
+ nav ul li{
+    
+
+
+    text-transform:uppercase;
+   display: inline;
+font-size: 14px;
+   margin-left: 40px;
+    padding-top: unset ;
+    padding-bottom: unset;
+    color:hsl(229, 31%, 21%);
+    font-weight: 400;
+    letter-spacing: 1px;
+    
+    
+}
+
+nav ul li:hover{
+    color: hsl(0, 94%, 66%) ;
+}
+
+nav ul li.login{
+  
+background: hsl(0, 94%, 66%) ;
+padding: 10px !important;
+padding-left: 30px !important;
+padding-right: 30px !important;
+color: white;
+border: none !important;
+
+
+}
+
+nav ul li.login:hover{
+    background: white;
+    color: hsl(0, 94%, 66%) ;
+    border: solid hsl(0, 94%, 66%) 1px !important;
+    
+   
+   
+}
+
+/* ////// */
+
+.sec1{
+    display: flex;
+   flex-direction: row-reverse;
+}
+
+.sec1 .d-flex{
+width: 50vw;
+
+}
+
+
+.sec1 .mainwrap{
+   display: inline-block;
+   text-align: start !important;
+    width: 60% !important;
+  
+}
+
+.buttswrap{
+    justify-content: start;
+  
+ 
+}
+
+.butts1,.butts2{
+    height: 45px;
+}
+
+
+/* ////SEC2/// */
+
+
+
+
+.Insec2-1{
+  width: 60% !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.sec2-2 hr{
+    width: 70vw;
+    position: relative;
+    left: 10vw;
+    
+}
+
+
+
+
+.tabContent-wrap .tabContent:first-of-type{
+    flex-direction: row ;
+}
+
+.tabContent-wrap .tabContent{
+    
+    flex-direction: row;
+}
+
+.Intabcontent1Img, .Intabcontent2Img,.Intabcontent3Img{
+    width: 55vw;
+    
+}
+
+.Intabcontent1Text, .Intabcontent2Text,.Intabcontent3Text{
+    width: 45vw;
+position: relative;
+top: -70px;
+    
+}
+
+
+.Intabcontent1,.Intabcontent2,.Intabcontent3{
+    max-width: 90%;
+   
+}
+
+
+.tabContentimg1,.tabContentimg2,.tabContentimg3{
+    left: 30px;
+}
+
+
+
+.tabContent-wrap .mainwrap2{
+    width: 60% !important;
+    text-align: start !important;
+  
+}
+
+.info{
+    display: unset !important;
+}
+
+/* //////SEC 4///// */
+
+/* .Tophr{
+display: block;
+position: relative;
+top: 10px;
+} */
+
+
+
+
+
+}
+
+@media(min-width:1000px){
+.mainwrap2{
+    width: 50vw !important;
+}
+
+.Insec2-1{
+    width: 32% !important;
+   
+}
+
+.Insec2-1 .para{
+    margin-top: 10px;
+    
+}
+
+.sec2-2{
+    
+    display: flex;
+ justify-content: space-between;
+    
+   
+}
+
+
+
+.sec2-2 hr{
+    display: none;
+}
+
+.lgs{
+    display: block;
+    width: 56vw;
+    position: relative;
+    left: 22vw;
+    top: -11px;
+}
+
+
+
+
+
+
+
+.tabindicator1:nth-of-type(1){
+width: 220px;
+margin-left: -60px;
+    
+}
+
+.tabindicator1:last-of-type{
+   width: 220px;
+    margin-right: -40px;
+    
+        
+    }
+
+
+  
+
+    .tabContent-wrap{
+        margin-top: 140px !important;
+        width: 100vw;
+        margin-top: 100px;
+    }
+
+    .tabContentimg1{
+        top: -80px;
+    }
+
+    /* //////SEC 3 ///// */
+
+    .sec3 .mainwrap2{
+        width: 33% !important;
+        
+    }
+
+    .browsWrap{
+    
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        
+       }
+
+       .browsWrap .brows:last-of-type{
+        margin-top: 90px !important;
+       
+       }
+
+       /* //////SEC 4////// */
+.sec4 .insec4Wrap{
+    width: 32% !important;
+   
+   
+}
+
+.sec4 .insec4Wrap2 {
+    width: 32% !important;
+  
+}
+
+.insec4Wrap2 table{
+    width: 100% !important;
+}
+
+
+
+
+
+   
+
+}
