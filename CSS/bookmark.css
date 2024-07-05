@@ -41,8 +41,6 @@ background-color: hsl(229, 31%, 21%,0.9) ;
 
 
 
-
-
 nav ul{
     min-height: 60vh !important;
     margin-top: -2px;
@@ -55,12 +53,8 @@ nav ul{
     display: flex;
     align-items: last baseline;
    
-    
-    
 
 }
-
-
 
 
 
@@ -104,8 +98,16 @@ width: 100vw;
    
 }
 
+.sec1imgs{
+    display: flex;
+    justify-content: end;
+}
+
+
+
 .sec1-1{
-width:75vw;
+width:80vw;
+
     background: hsl(231, 69%, 60%);
     border-top-left-radius: 200px;
     border-bottom-left-radius: 200px;
@@ -114,17 +116,16 @@ width:75vw;
 
 }
 
-
-
 .sec1-1 img{
     position: relative;
-    left: -75px ;
-top: -50px;
+    left: -22% ;
+top: -60px;
 min-width: 340px;
 
 
 
 }
+
 
 
 
@@ -142,6 +143,14 @@ min-width: 340px;
    
 }
 
+
+.butts1:hover{
+    color: hsl(231, 69%, 60%) !important;
+    background: white !important;
+    border: solid hsl(231, 69%, 60%) 2px !important;
+}
+
+
 .butts2{
     background: rgb(247, 247, 247) !important;
     font-size: 12px !important;
@@ -152,11 +161,20 @@ min-width: 340px;
     font-weight: 500 !important;
 }
 
+
+.butts2:hover{
+border: solid hsl(229, 8%, 60%) 2px !important;
+
+}
+
+
 .buttswrap{
     display: flex;
     justify-content: center;
     gap: 10px;
 }
+
+
 
 /* /////////SECTION 2//// */
 .sec2{
@@ -171,8 +189,6 @@ min-width: 340px;
 .lgs{
     display: none;
 }
-
-
 
 
 .tablink{
@@ -215,7 +231,6 @@ min-width: 340px;
 }
 
 
-
 .tabContent-wrap .tabContent{
     display: none ;
     flex-direction: column;
@@ -247,7 +262,7 @@ justify-content: end;
 
 
 
-.tabContentimg1,.tabContentimg2,.tabContentimg3{
+.tabContentimg1, .tabContentimg2, .tabContentimg3{
     min-width:310px;
    position: relative;
    left: 60px;
@@ -272,11 +287,9 @@ justify-content: end;
     background: hsl(231, 69%, 60%) !important;
     color: white !important;
     font-size: 10px !important;
-}
-
-.info{
     display: none !important;
 }
+
 
 h1,h4,h5{
 
@@ -301,8 +314,6 @@ h1,h4,h5{
 
 
 
-
-
 .ans{
     display: none ;
 }
@@ -315,7 +326,6 @@ color: hsl(0, 94%, 66%);
 
 
 /* ////SEC4//////// */
-
 
 
 
@@ -339,7 +349,6 @@ color: hsl(0, 94%, 66%);
 
 
 
-
 .infobutts button{
     background: hsl(231, 69%, 60%);
     color: white;
@@ -357,7 +366,6 @@ color: hsl(0, 94%, 66%);
 
 
 
-
 /* ///////SEC5////// */
 
 .sec5{
@@ -365,14 +373,13 @@ color: hsl(0, 94%, 66%);
     background: hsl(231, 69%, 60%);
 }
 
-.insec5text{
-    width: 450px;
- 
-}
 
 
 .insec5text h6{
     text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px !important;
+    font-weight: 300;
 }
 
 .insec5text h4{
@@ -380,7 +387,95 @@ color: hsl(0, 94%, 66%);
     
 }
 
+/* .put{
+    height: 65px;
+    background: hsl(0, 94%, 66%);
+} */
 
+
+
+
+
+
+.err{
+    font-size: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background:hsl(0, 94%, 66%);
+  position: relative;
+  top: 7px;
+  padding: 5px;
+  
+    display: block;
+   
+ 
+}
+
+
+
+.contact{
+    background: hsl(0, 94%, 66%);
+    color: white;
+    cursor: pointer;
+    padding: 13px;
+    
+}
+
+.contact:hover{
+    background: white;
+    color: hsl(0, 94%, 66%) ;
+    border:solid  hsl(0, 94%, 66%) 2px !important;
+}
+
+
+
+.mail{
+    
+    position: relative;
+    top: 10px;
+    z-index: 2;
+height: 45px;
+    font-size: 10px;
+}
+
+
+/* //////FOOTER///// */
+
+.footWrap{
+    background:hsl(229, 31%, 21%);
+}
+
+.footWrap ul li{
+    text-transform:uppercase;
+    font-weight: 100;
+    color: white;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.infootWrap{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+   
+}
+
+.infootWrap1 ul li:not(:nth-of-type(1)):hover{
+    color:hsl(0, 94%, 66%) ;
+    
+}
+
+.infootWrap2 :hover{
+   cursor: pointer;
+    fill: hsl(0, 94%, 66%);
+    
+}
+
+
+.attribution { font-size: 11px; text-align: center; color:  hsl(228, 45%, 44%); }
+    .attribution a { color:white; }
 
 
 
@@ -389,25 +484,32 @@ color: hsl(0, 94%, 66%);
   header{
     padding-top: 20px;
 
-  
     
   }
+
+  .headerWrap{
+    width: 82vw !important;
+   
+}
 
    .mainwrap{
   display: flex;
   justify-content: space-between;
   align-items: center;
   
-
+ 
    }
+
+
 
    nav{
 min-height:unset ;
-   position: unset;
+  position: unset;
+  
   width: unset ;
 background: none;
 display: flex ;
-padding-top: 10px;
+padding-top: 13px;
 
 
    }
@@ -430,6 +532,8 @@ nav .navlogo{
 nav .navend{
     display: none;
 }
+
+
 
 
 
@@ -482,14 +586,48 @@ nav ul li.login:hover{
 /* ////// */
 
 .sec1{
+    margin-top: 250px !important;
     display: flex;
-   flex-direction: row-reverse;
+flex-direction: row-reverse;
+}
+
+.sec1imgs{
+    width: 50vw;
+  
 }
 
 .sec1 .d-flex{
 width: 50vw;
+margin-top: unset !important;
+
 
 }
+
+.sec1-1{
+    width:80vw;
+    height: 300px;
+        background: hsl(231, 69%, 60%);
+        border-top-left-radius: 200px;
+        border-bottom-left-radius: 200px;
+    position: relative;
+    left: 30%;
+    
+    
+    }
+    
+    .sec1-1 img{
+        position: relative;
+        left: -25% ;
+    top: -150px;
+    min-width: 450px;
+    height: 450px;
+    
+    
+    
+    }
+
+
+
 
 
 .sec1 .mainwrap{
@@ -543,27 +681,22 @@ width: 50vw;
 }
 
 .Intabcontent1Img, .Intabcontent2Img,.Intabcontent3Img{
-    width: 55vw;
+   
+    width: 50vw;
     
 }
 
 .Intabcontent1Text, .Intabcontent2Text,.Intabcontent3Text{
-    width: 45vw;
-position: relative;
-top: -70px;
-    
-}
-
-
-.Intabcontent1,.Intabcontent2,.Intabcontent3{
-    max-width: 90%;
    
+    width: 50vw;
+ 
 }
 
 
-.tabContentimg1,.tabContentimg2,.tabContentimg3{
-    left: 30px;
+.Intabcontent1Text, .Intabcontent2Text,.Intabcontent3Text .mainwrap2{
+    width: 45%;
 }
+
 
 
 
@@ -577,21 +710,14 @@ top: -70px;
     display: unset !important;
 }
 
-/* //////SEC 4///// */
-
-/* .Tophr{
-display: block;
-position: relative;
-top: 10px;
-} */
-
-
 
 
 
 }
 
 @media(min-width:1000px){
+
+
 .mainwrap2{
     width: 50vw !important;
 }
@@ -607,7 +733,7 @@ top: 10px;
 }
 
 .sec2-2{
-    
+    margin-top: 40px !important;
     display: flex;
  justify-content: space-between;
     
@@ -698,8 +824,69 @@ margin-left: -60px;
 
 
 
+/* /////////// SEC5///// */
+
+.insec5text{
+    width: 350px !important;
+ }
 
 
+ .mailW {
+    display:flex;
+  justify-content: space-between;
+  width: 350px !important;
    
+ }
+
+ .mailW1{
+    width: 60%;
+ }
+
+ .mailW2{
+    width: 35%;
+ }
+
+ .insec5text h4{
+
+    margin-top: 20px;
+ }
+
+
+ .contact{
+    background: hsl(0, 94%, 66%);
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 14px;
+   position: relative;
+   top: -14px;
+
+}
+
+.infootWrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+   width: 82vw !important;
+    
+       
+    }
+
+    .infootWrap1 ul li{
+        display: inline;
+       
+    }
+
+    .infootWrap1 ul li:not(:first-of-type){
+      
+        margin-left: 30px;
+    }
+
+    .infootWrap2{
+        margin-bottom: 40px ;
+    }
+
+
 
 }
