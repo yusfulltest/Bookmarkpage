@@ -1,21 +1,23 @@
 body{
     width: 100vw;
-    
-   font-family: "Rubik", sans-serif ;
+   
    overflow-x: hidden;
    
 }
 
-.mainwrap{
-    width: 85vw !important;
+header{
+    font-family: "Rubik", sans-serif ;
+}
 
-    margin-top: 10px;
+.mainwrap{
+    width: 87vw !important;
+
 }
 
 .mainwrap2{
-    width: 85vw !important;
+    width: 87vw !important;
 
-    margin-top: 10px;
+    
 }
 
 
@@ -84,6 +86,7 @@ nav hr{
 main{
     width: 100vw;
     overflow-x: hidden;
+    font-family: "Rubik", sans-serif ;
   }
 
 /* ////section 1//// */
@@ -181,6 +184,8 @@ border: solid hsl(229, 8%, 60%) 2px !important;
     margin-top: 110px;
 }
 
+
+
 .sec2-2 hr{
     margin-top: 5px;
 }
@@ -271,6 +276,7 @@ justify-content: end;
 
 }
 
+
 /* ///////SEC3/////// */
 
 
@@ -283,12 +289,7 @@ justify-content: end;
 }
 
 
-.info{
-    background: hsl(231, 69%, 60%) !important;
-    color: white !important;
-    font-size: 10px !important;
-    display: none !important;
-}
+
 
 
 h1,h4,h5{
@@ -355,21 +356,42 @@ color: hsl(0, 94%, 66%);
     width: 110px;
     padding-top: 10px;
     padding-bottom: 10px;
+    display: none;
     
 }
+
+.infobutts4 button{
+    background: hsl(231, 69%, 60%);
+    color: white;
+    width: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
 
 .infobutts button:hover{
     background: hsl(231, 69%, 60%);
     color: white;
 }
 
+.infobutts4 button:hover{
+    background: hsl(231, 69%, 60%);
+    color: white;
+}
 
+
+
+.frehr{
+    opacity: 0;
+}
 
 
 /* ///////SEC5////// */
 
 .sec5{
-    margin-top: 100px;
+    margin-top: 120px;
     background: hsl(231, 69%, 60%);
 }
 
@@ -378,37 +400,34 @@ color: hsl(0, 94%, 66%);
 .insec5text h6{
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 12px !important;
+    font-size: 14px !important;
     font-weight: 300;
 }
 
-.insec5text h4{
-    font-size: x-large;
-    
-}
 
-/* .put{
-    height: 65px;
+
+#error{
     background: hsl(0, 94%, 66%);
-} */
-
-
-
-
-
-
-.err{
-    font-size: 10px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background:hsl(0, 94%, 66%);
-  position: relative;
-  top: 7px;
-  padding: 5px;
+    border-radius: 5px;
+   
+    margin-top: -58px;
   
-    display: block;
+   display: none;
+    align-items: center;
+    justify-content: space-between;
+
+   
+
    
  
+}
+
+#errortext{
+   
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+
 }
 
 
@@ -418,6 +437,10 @@ color: hsl(0, 94%, 66%);
     color: white;
     cursor: pointer;
     padding: 13px;
+    
+    position: relative;
+    top: -70px;
+    
     
 }
 
@@ -429,14 +452,44 @@ color: hsl(0, 94%, 66%);
 
 
 
-.mail{
+#mail{
     
-    position: relative;
-    top: 10px;
-    z-index: 2;
-height: 45px;
-    font-size: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    outline: 0;
+
+    
 }
+
+.mailW2{
+   margin-top: 90px;
+}
+
+
+.here{
+    position: relative;
+  top: 42px;
+  padding-right: 10px;
+    z-index: 5;
+  
+}
+
+
+
+
+.erroricon{
+  margin-top: -30px;
+  right: 20px;
+  
+    
+}
+
+
+
+
+
 
 
 /* //////FOOTER///// */
@@ -449,7 +502,7 @@ height: 45px;
     text-transform:uppercase;
     font-weight: 100;
     color: white;
-    margin-top: 30px;
+    margin-top: 35px;
     letter-spacing: 2px;
     cursor: pointer;
 }
@@ -476,6 +529,7 @@ align-items: center;
 
 .attribution { font-size: 11px; text-align: center; color:  hsl(228, 45%, 44%); }
     .attribution a { color:white; }
+
 
 
 
@@ -531,9 +585,8 @@ nav .navlogo{
 
 nav .navend{
     display: none;
+    
 }
-
-
 
 
 
@@ -653,12 +706,20 @@ margin-top: unset !important;
 
 
 
-.Insec2-1{
-  width: 60% !important;
+.Insec2-1 {
+  /* width: 60% !important;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; */
 
+}
+
+.sec2 .mainwrap{
+
+    width: 33% !important;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .sec2-2 hr{
@@ -706,10 +767,18 @@ margin-top: unset !important;
   
 }
 
-.info{
-    display: unset !important;
+
+.infobutts button{
+    display: unset;
 }
 
+
+.frehr{
+    
+    position: relative;
+    top: 20px;
+    opacity: 0.11;
+}
 
 
 
@@ -789,7 +858,7 @@ margin-left: -60px;
     /* //////SEC 3 ///// */
 
     .sec3 .mainwrap2{
-        width: 33% !important;
+        width: 35% !important;
         
     }
 
@@ -827,24 +896,60 @@ margin-left: -60px;
 /* /////////// SEC5///// */
 
 .insec5text{
-    width: 350px !important;
+  
+    width: 450px !important;
+    
+
+    
  }
 
 
  .mailW {
     display:flex;
   justify-content: space-between;
-  width: 350px !important;
+  width: 450px !important;
+   
    
  }
 
- .mailW1{
-    width: 60%;
+
+ .insec5text h6{
+    letter-spacing: 6px;
+ }
+ 
+
+ .insec5text h4{
+
+font-size: 30px;
+
+margin-top: 40px !important;
+
+ }
+
+
+
+
+ #mailform{
+    width: 67% !important;
+
+    
+   
  }
 
  .mailW2{
-    width: 35%;
+    width: 30%;
+   
  }
+
+ #mail{
+ 
+    height: 60px;
+    
+
+    
+}
+
+
 
  .insec5text h4{
 
@@ -853,14 +958,9 @@ margin-left: -60px;
 
 
  .contact{
-    background: hsl(0, 94%, 66%);
-    color: white;
-    cursor: pointer;
-    padding: 12px;
-    font-size: 14px;
-   position: relative;
-   top: -14px;
-
+    height: 60px;
+    margin-top: -5px;
+    
 }
 
 .infootWrap{
