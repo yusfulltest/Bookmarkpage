@@ -1,12 +1,16 @@
 body{
-    width: 100vw;
+width: 100vw;
+overflow-x: hidden;
+
+ 
+ 
    
-   overflow-x: hidden;
    
 }
 
 header{
     font-family: "Rubik", sans-serif ;
+   
 }
 
 .mainwrap{
@@ -87,6 +91,7 @@ main{
     width: 100vw;
     overflow-x: hidden;
     font-family: "Rubik", sans-serif ;
+   
   }
 
 /* ////section 1//// */
@@ -104,30 +109,44 @@ width: 100vw;
 .sec1imgs{
     display: flex;
     justify-content: end;
+    width: 100%;
+    
 }
 
 
 
 .sec1-1{
+/* width:80vw; */
 width:80vw;
 
     background: hsl(231, 69%, 60%);
     border-top-left-radius: 200px;
     border-bottom-left-radius: 200px;
-
+display: flex;
+justify-content: center ;
 
 
 }
 
 .sec1-1 img{
-    position: relative;
+    /* position: relative;
     left: -22% ;
+top: -60px; */
+position: relative;
+
 top: -60px;
-min-width: 340px;
+margin-left: -20%;
+/* width: 450px ; */
+min-width:330px ;
+
+  
 
 
+/* min-width: 340px; */
 
 }
+
+
 
 
 
